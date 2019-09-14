@@ -1,4 +1,4 @@
-let z = prompt("Dame un numero "), EX = parseInt(z,10), formula1 = Math.exp();
+let z = 10, EX = parseInt(z,10), formula1 = Math.exp(z);
 
 console.log("Formula es: " + formula1);
 

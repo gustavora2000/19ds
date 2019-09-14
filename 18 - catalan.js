@@ -1,4 +1,4 @@
-let num = prompt("Escribe el numero: "), Num = parseInt(num,10)
+let num = 10, Num = parseInt(num,10)
 
 function F(n){
     let x = 1

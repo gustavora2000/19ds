@@ -1,5 +1,4 @@
 // O(n^2)
-let n = 10
 function FuncionPrima (n) {
     let num = 2
     let prim = 1
@@ -20,4 +19,4 @@ function FuncionPrima (n) {
     }
 }
 
-FuncionPrima(n);
+FuncionPrima(5);

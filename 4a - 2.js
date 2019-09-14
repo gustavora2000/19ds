@@ -1,4 +1,4 @@
-let x = 10, a = 2, t = 0;
+let x = 5, a = 4, t = 0;
 
 for (let y = 0; y <= x; y++) {
     t = t + Math.pow(a, y);

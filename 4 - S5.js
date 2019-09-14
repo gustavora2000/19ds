@@ -1,5 +1,5 @@
 //s5 = 1 + a + a^2 ... = ((a^(n+1))-1)/(a-1) ; a != 1
-let   n = 10, k = 2, t = 0;
+let   n = 5, k = 4, t = 0;
 
 for (let x = 0; x <= n; x++) {
     t = t + Math.pow(k, x);

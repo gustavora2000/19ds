@@ -1,5 +1,5 @@
 
-let a = prompt('Dame una valor ');
+let a = 10;
 function log(x) 
 {
     return Math.log(x)/Math.log(a)
