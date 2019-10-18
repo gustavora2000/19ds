@@ -45,8 +45,8 @@ class Fibonacci {
 
 (function useFibonacci(){
     let n = new Fibonacci(4);
-    n.getValue();
-    n.getSucesion();
-    n.getCost();
-    n.getTable();
+    console.log(n.getValue());
+    console.log(n.getSucesion());
+    console.log(n.getCost());
+    console.log(n.getTable());
 })();

@@ -95,8 +95,8 @@ class Calendar {
 
 (function useCalendar(){
     let m = new Calendar();
-    m.isLeapYear(1900); 
-    m.isLeapYear(1650); 
-    m.firstDayYear(2018);
-    m.todayPlus("Jueves",5);
+    console.log(m.isLeapYear(1900)); 
+    console.log(m.isLeapYear(1650)); 
+    console.log(m.firstDayYear(2018));
+    console.log(m.todayPlus("Jueves",5));
 })();

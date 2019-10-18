@@ -94,12 +94,12 @@ class Matrix {
 
   (function useMatrix(){
       let m = new Matrix(5,5);
-      m.init();
-      m.initRandom();
-      m.getRow(0);
-      m.getColumn(0);
-      m.isSquared();
-      m.isSymmetric();
-      m.isIdentity();
-      m.getMatrix();
+      console.log(m.init());
+      console.log(m.initRandom());
+      console.log(m.getRow(0));
+      console.log(m.getColumn(0));
+      console.log(m.isSquared());
+      console.log(m.isSymmetric());
+      console.log(m.isIdentity());
+      console.log(m.getMatrix());
   })();

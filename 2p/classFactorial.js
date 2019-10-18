@@ -53,8 +53,8 @@ class Factorial {
 
 (function useFactorial(){
     let f = new Factorial(3);
-    f.getValue();
-    f.getSuccesion();
-    f.getCost();
-    f.getTable();
+    console.log(f.getValue());
+    console.log(f.getSuccesion());
+    console.log(f.getCost());
+    console.log(f.getTable());
 })();

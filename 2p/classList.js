@@ -76,11 +76,11 @@ class Lista{
     let nodo5 = new Nodo("nodo5");
     let nodo6 = new Nodo("nodo6");
     let lista1 = new Lista;
-    lista1.insertHead(nodo5)
-    lista1.insertHead(nodo4)
-    lista1.insertHead(nodo3)
-    lista1.insertHead(nodo2)
-    lista1.insertHead(nodo1)
-    lista1.insertTail(nodo6)
+    console.log(lista1.insertHead(nodo5))
+    console.log(lista1.insertHead(nodo4))
+    console.log(lista1.insertHead(nodo3))
+    console.log(lista1.insertHead(nodo2))
+    console.log(lista1.insertHead(nodo1))
+    console.log(lista1.insertTail(nodo6))
 })();
 

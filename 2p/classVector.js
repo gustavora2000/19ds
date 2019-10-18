@@ -35,8 +35,8 @@ class Vector {
   
   (function useVector(){
       let v = new Vector();
-      v.sum();
-      v.subt();
-      v.mul();
-      v.getVector();
+      console.log(v.sum());
+      console.log(v.subt());
+      console.log(v.mul());
+      console.log(v.getVector());
   })();
