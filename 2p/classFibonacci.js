@@ -36,15 +36,15 @@ class Fibonacci {
     }
 
     getTable() {
-        console.log("  Numero | Costo | Valor ");
+        console.log("  NUMBER  COST  VALUE ");
         for(let i = 0; i <= this.numero; i++){
-            console.log(`f(${i}) |    ${this.getCost(i)} |    ${this.getValue(i)}`);
+            console.log(`    ${i}       ${this.getCost(i)}      ${this.getValue(i)}`);
         }
     }
 }
 
 (function useFibonacci(){
-    let n = new Fibonacci(4);
+    let n = new Fibonacci(6);
     console.log(n.getValue());
     console.log(n.getSucesion());
     console.log(n.getCost());
